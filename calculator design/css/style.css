@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.main_part{
+    height: 520px;
+    width: 280px;
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px 2px black;
+    position: relative;
+    background-color: #8675a9;
+}
+.top_part{
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    background-color: #625261;
+}
+.display{
+    height: 60px;
+    width: 240px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 1.5%;
+    background-color: #e8e8e8;
+    
+}
+.display p{
+    font-size: 2rem;
+    margin: 12px 0 12px 50px;
+}
+.reply_btn{
+    height: 55px;
+    width: 80px;
+    border: 1px;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    border-radius: 45%;
+    box-shadow: 2px 3px 1px 0px black;
+    background-color: #ffb0b0;
+    
+}
+.reply_btn p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 20px 10px 0px 15px;
+    font-weight: bold;
+}
+.shift_btn{
+    position: absolute;
+    top: 34%;
+    left: 6%;
+    height: 22px;
+    width: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ffb0b0;
+}
+.shift_btn p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: .6rem;
+}
+.alpha_btn{
+    position: absolute;
+    top: 34%;
+    left: 20%;
+    height: 22px;
+    width: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ffb0b0;
+}
+.alpha_btn p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: .6rem;
+}
+.mode_btn{
+    position: absolute;
+    top: 34%;
+    right: 20%;
+    height: 22px;
+    width: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ffb0b0;
+}
+.mode_btn p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: .6rem;
+}
+.on_btn{
+    position: absolute;
+    top: 34%;
+    right: 6%;
+    height: 22px;
+    width: 35px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ffb0b0;
+}
+.on_btn p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: .6rem;
+}
+.div_r1{
+    height: 25px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+.div_r1L{
+    float: left;
+}
+.div_r1R{
+    float: right;
+    margin-right: 20px;
+}
+#same_btn1{
+    float: left;
+    margin: 0 10px 0 0;
+    height: 22px;
+    width: 33px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+#same_btn1 p{
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    
+}
+.div_r2{
+    height: 25px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 46%;
+    left: 6%;
+}
+#same_btn2{
+    float: left;
+    margin: 0 10px 0 0;
+    height: 22px;
+    width: 33px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+#same_btn2 p{
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    
+}
+.div_r3{
+    height: 25px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 52%;
+    left: 6%;
+}
+#same_btn3{
+    float: left;
+    margin: 0 10px 0 0;
+    height: 22px;
+    width: 33px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+#same_btn3 p{
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    
+}
+.div_r4{
+    height: 25px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 58%;
+    left: 6%;
+}
+#same_btn4{
+    float: left;
+    margin: 0 10px 0 0;
+    height: 22px;
+    width: 33px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+#same_btn4 p{
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    
+}
+.div_r5{
+    height: 30px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 67%;
+    left: 6%;
+}
+#same_btn5{
+    float: left;
+    margin: 0 10px 0 0;
+    height: 29px;
+    width: 41px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #a6a6a4;
+}
+#same_btn5 p{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+    font-weight: bold;
+}
+.div_r6{
+    height: 30px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 75%;
+    left: 6%;
+}
+.div_r7{
+    height: 30px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 83%;
+    left: 6%;
+}
+.div_r8{
+    height: 30px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 91%;
+    left: 6%;
+}
+.caption1{
+    float: right;
+    padding: 4px 1px;
+    color: black;
+    font-style: oblique;
+    font-size: .7rem;
+    
+}
+.caption2{
+    font-size: 2rem;
+    position: relative;
+    top: 28%;
+    left: 30%;
+    font-style: italic;
+    font-family: serif;
+    color: aqua;
+}
+
+
+
